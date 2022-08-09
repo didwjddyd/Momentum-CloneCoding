@@ -2,3 +2,14 @@ body
 {
     background-color: white;
 }
+
+h1
+{
+    color: cornflowerblue;
+    transition: color 0.2s ease-in-out;
+}
+
+.active
+{
+    color: tomato;
+}
