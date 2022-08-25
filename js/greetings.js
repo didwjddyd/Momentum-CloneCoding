@@ -18,6 +18,7 @@ function paintGreetings(username)
 {
     greeting.innerText = `Hello, ${username}`;
     greeting.classList.remove(HIDDEN_CLASSNAME);
+    document.querySelector("#todo-form").classList.remove(HIDDEN_CLASSNAME);
 }
 
 const savedUsername = localStorage.getItem(USERNAME_KEY);

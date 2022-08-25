@@ -17,16 +17,20 @@
 {
     color: white;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 80px;
     padding-bottom: 10px;
     margin-bottom: 0;
-    font-size: 120px;
+    font-size: 110px;
 }
 
 #quote
 {
-    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     text-align: center;
+    color: white;
+    width: 100%;
 }
 
 #weather
@@ -51,11 +55,10 @@
 #login-question
 {
     color: white;
-    text-align: center;
     font-size: xxx-large;
 }
 
-input[type="text"]
+#login-input
 {
     color: white;
     font-size: xx-large;
@@ -68,3 +71,38 @@ input[type="text"]
     outline: none;
     margin-top: 10px;
 }
+
+#todo-form
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#todo-text
+{
+    color: white;
+    font-size: x-large;
+}
+
+#todo-input
+{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    background: linear-gradient(white, white);
+    background-position: bottom -1px center;
+    background-size: calc(100% - 10px) 3px;
+    background-repeat: no-repeat;
+    border: 0;
+    outline: none;
+    margin-top: 10px;
+}
+
+#todo-list
+{
+    color: white;
+    text-align: center;
+    list-style: none;
+    font-size: large;
+}
+
