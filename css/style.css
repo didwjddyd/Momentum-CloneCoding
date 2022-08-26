@@ -27,10 +27,11 @@
 {
     position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 10px;
     text-align: center;
     color: white;
     width: 100%;
+    font-size: large;
 }
 
 #weather
@@ -103,6 +104,11 @@
     color: white;
     text-align: center;
     list-style: none;
-    font-size: large;
+    font-size: x-large;
 }
 
+#todo-button
+{
+    background: none;
+    border: 0;
+}
